@@ -1,0 +1,20 @@
+.parent {
+  border: 1px solid yellow;
+  width: 200px;
+  height: 100px;
+}
+
+.child {
+  border: 1px solid green;
+  width: 100px;
+  height: 50px;
+  display: table; /*table or block 都可以*/
+  /*
+     margin属性
+    */
+  margin: 0 auto; /*auto表示根据浏览器自动分配*/
+  /*一下三种方式会导致 脱离文档流 margin失效*/
+  /*position: absolute; 绝对定位，脱离文档流导致margin失效*/
+  /*float: left;浮动，脱离文档流导致margin失效*/
+  /*元素设定为固定定位，脱离文档流导致margin失效*/
+}
