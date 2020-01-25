@@ -1,0 +1,25 @@
+.parent {
+  border: 1px solid yellow;
+  width: 200px;
+  height: 100px;
+  /*
+    text-align:为文本内容设置对其方式
+    * left,right,center
+    * 缺点text-align有继承特性，导致子元素都居中，解决方法为子元素单独设置text-align
+  */
+  text-align: center;
+}
+
+.child {
+  border: 1px solid green;
+  width: 100px;
+  height: 50px;
+  /*
+    display:属性
+    * block:块级元素
+    * inline:内联元素（此种方式宽高无效）
+    * inline-block:行内块级元素(块级+内联)
+  */
+  display: inline-block;
+  text-align: left; /*为子元素单独设置text-align，覆盖父级的居中*/
+}
