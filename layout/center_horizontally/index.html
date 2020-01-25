@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <!-- <link rel="stylesheet" href="./css/v1.1.1.css" type="text/css" /> -->
-    <link rel="stylesheet" href="./css/v1.1.2.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="./css/v1.1.2.css" type="text/css" />-->
+    <link rel="stylesheet" href="./css/v1.1.3.css" type="text/css" />
   </head>
   <body>
     <!--v1.1.1 优点浏览器兼容性好，缺点text-align有继承特性，导致子元素都居中，解决方法为子元素单独设置text-align-->
     <!-- <div class="parent"><div class="child">124</div></div> -->
 
     <!--v1.1.2 优点只要设置子集，但脱离文档流会导致margin失效-->
+    <!--<div class="parent"><div class="child"></div></div>-->
+
+    <!--v1.1.3父级元素是否脱离文档流，不影响子集的居中效果，但transform是css3属性，浏览器支持情况不理想-->
     <div class="parent"><div class="child"></div></div>
   </body>
 </html>
