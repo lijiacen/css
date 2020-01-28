@@ -1,0 +1,38 @@
+.parent {
+  height: 300px;
+}
+
+.left,
+.center,
+.right {
+  height: 300px;
+  float: left;
+}
+
+.left,
+.right {
+  width: 300px;
+}
+
+.left {
+  background: red;
+  /*从当前行移动到上一行同一个位置*/
+  margin-left: -100%;
+}
+.center {
+  /*表示父级元素的宽度*/
+  width: 100%;
+  background: yellow;
+}
+.inner {
+  height: 300px;
+  background: blueviolet;
+  /*对应左右元素的宽度*/
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.right {
+  background: blue;
+  /*从当前行移动到上一行同一个位置*/
+  margin-left: -300px;
+}
