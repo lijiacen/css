@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/v1.6.1.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="./css/v1.6.1.css" type="text/css" /> -->
+    <link rel="stylesheet" href="./css/v1.6.2.css" type="text/css" />
   </head>
   <body>
     <!--v1.6.1 注意顺序，center自适应，没有浮动，right浮动，当兄弟元素中，前面浮动，后面不浮动，不浮动的元素不允许超过浮动元素，
-        解决方案为，把不浮动的center放在最后，但是对于搜索引擎来说最后加载，核心center div最后才渲染不友好-->
+        解决方案为，把不浮动的center放在最后，但是对于搜索引擎来说最后加载，核心center div最后才渲染不友好
     <div class="left"></div>
     <div class="right"></div>
     <div class="center"></div>
+    -->
+
+    <!--v1.6.2 改进方案 核心center放在最前面-->
+    <div class="parent">
+      <div class="center"></div>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
   </body>
 </html>
