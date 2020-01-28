@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/v1.4.1.css" type="text/css" />
+  </head>
+  <body>
+    <!--v1.4.1 float left + margin-left实现；实现简单，缺点margin-left和width耦合-->
+    <div class="parent">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+    <!--v1.4.1 优化版本-->
+    <div class="parent">
+      <div class="left"></div>
+      <!--为自适应元素定义父级元素-->
+      <div class="right-fix">
+        <div class="right2"></div>
+      </div>
+    </div>
+  </body>
+</html>

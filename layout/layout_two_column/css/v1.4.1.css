@@ -1,0 +1,27 @@
+.parent {
+  border: 1px solid yellow;
+  height: 200px;
+}
+.left {
+  float: left;
+  width: 400px;
+  height: 200px;
+  background: green;
+  position: relative;
+}
+.right {
+  margin-left: 400px;
+  height: 200px;
+  background: purple;
+}
+.right-fix {
+  /*设置浮动，导致默认宽度为0*/
+  float: right;
+  width: 100%;
+  margin-left: -400px;
+  background-color: hotpink;
+}
+.right2 {
+  height: 200px;
+  background: purple;
+}
