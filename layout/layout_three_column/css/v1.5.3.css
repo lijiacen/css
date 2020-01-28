@@ -1,0 +1,28 @@
+.parent {
+  border: 1px solid yellow;
+  height: 200px;
+  width: 100%;
+  /*表格的单元格宽度会自动分配*/
+  display: table;
+  table-layout: fixed;
+}
+.left1 {
+  display: table-cell;
+  /*定宽*/
+  width: 400px;
+  height: 200px;
+  background-color: hotpink;
+}
+.left2 {
+  display: table-cell;
+  /*定宽*/
+  width: 400px;
+  height: 200px;
+  background-color: orange;
+}
+
+.right {
+  display: table-cell;
+  height: 200px;
+  background-color: red;
+}
