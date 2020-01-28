@@ -1,0 +1,22 @@
+.parent {
+  border: 1px solid yellow;
+  height: 200px;
+}
+.left1 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: green;
+}
+.left2 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+.right {
+  /*开启BFD模式 -当前元素与外界元素完全隔离*/
+  overflow: hidden;
+  height: 200px;
+  background: purple;
+}
