@@ -1,0 +1,32 @@
+.parent-fix {
+  overflow: hidden; /*防止内容溢出*/
+}
+.parent {
+  width: 1274px; /*div宽度加+margin*/
+  display: table;
+  margin-left: -10px;
+}
+
+.column {
+  height: 300px;
+  display: table-cell;
+  /*盒子模型 默认*/
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.div1 {
+  background: greenyellow;
+  height: 300px;
+}
+.div2 {
+  background: blueviolet;
+  height: 300px;
+}
+.div3 {
+  background: floralwhite;
+  height: 300px;
+}
+.div4 {
+  background: brown;
+  height: 300px;
+}
