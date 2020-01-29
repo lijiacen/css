@@ -1,0 +1,17 @@
+.parent {
+  overflow: hidden; /*解决高度塌陷 */
+}
+.left,
+.right {
+  width: 300px;
+  float: left;
+  /*padding-bottom，margin-bottom都极大，且相反，此时对冲*/
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+.left {
+  background: greenyellow;
+}
+.right {
+  background: red;
+}
