@@ -1,0 +1,31 @@
+.parent-fix {
+  overflow: hidden;
+}
+.parent {
+  height: 300px;
+  margin-left: -10px;
+}
+.column {
+  float: left;
+  width: 25%;
+  height: 300px;
+  /*盒子模型 默认*/
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.div1 {
+  background: greenyellow;
+  height: 300px;
+}
+.div2 {
+  background: blueviolet;
+  height: 300px;
+}
+.div3 {
+  background: floralwhite;
+  height: 300px;
+}
+.div4 {
+  background: brown;
+  height: 300px;
+}
