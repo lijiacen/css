@@ -1,0 +1,15 @@
+.parent {
+  /*表格中的单元格默认等高，无论内容多少是否一致*/
+  display: table;
+}
+.left,
+.right {
+  width: 300px;
+  display: table-cell;
+}
+.left {
+  background: greenyellow;
+}
+.right {
+  background: red;
+}
