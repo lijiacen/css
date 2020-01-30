@@ -1,0 +1,58 @@
+.parent,
+.parent2,
+.parent3 {
+  /*css3 相关属性
+    column-count: 4;
+    column-width: 300px;*/
+  /*简写方式*/
+  columns: 4 300px;
+  /*设置间隙*/
+  column-gap: 10px;
+
+  /*设置列的间隙
+  column-rule-width: 5px;
+  column-rule-color: tomato;
+  column-rule-style: double;*/
+  /*简写方式*/
+  column-rule: 5px tomato double;
+}
+
+.column1 {
+  height: 300px;
+  background: greenyellow;
+}
+.column2 {
+  height: 300px;
+  background: blueviolet;
+}
+.column3 {
+  height: 300px;
+  background: floralwhite;
+}
+.column4 {
+  height: 300px;
+  background: brown;
+}
+
+.column5 {
+  height: 300px;
+  /*横跨多列*/
+  column-span: all;
+  background: black;
+}
+.column6 {
+  column-fill: balance;
+  background: greenyellow;
+}
+.column7 {
+  column-fill: balance;
+  background: blueviolet;
+}
+.column8 {
+  column-fill: balance;
+  background: floralwhite;
+}
+.column9 {
+  column-fill: balance;
+  background: brown;
+}
