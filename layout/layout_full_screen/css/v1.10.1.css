@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0px;
+}
+
+header {
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: lightslategray;
+}
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 100px;
+  bottom: 100px;
+  background-color: lightcoral;
+}
+
+.left {
+  width: 300px;
+  position: fixed;
+  left: 0;
+  top: 100px;
+  bottom: 100px;
+  background-color: lightyellow;
+}
+.right {
+  margin-left: 300px;
+  background: black;
+  height: 100%;
+}
+
+footer {
+  height: 100px;
+  position: fixed;
+  background-color: lightsalmon;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
