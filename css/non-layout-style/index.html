@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./line-height.css" type="text/css" />
+
+</head>
+
+<body>
+  <div id="demo1">
+    <span class="c1">inline box xfg中文</span>
+    <span class="c2">inline box</span>
+    <span class="c3">inline box</span>
+    行高由line-box决定，line-box由inline-box构成，inline-box的高度决定line-box高度
+    <span class="c5">inline box</span>
+  </div>
+  <div style="border: solid 1px red;">
+    <span
+      style="background: blue;color: #fff;font-size: 20px;line-height: 60px;">居中(背景区域由字体大小决定)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+  <div id="demo2">
+    <span class="cc1">第一段</span>
+    <span class="cc2">第二段</span>
+    <span class="cc3">第三段</span>
+  </div>
+  <div style="background: red;">
+    <span>文字，边上图片也默认inline元素，由基线对齐，会留下缝隙</span>
+    <img src="./test.jpg" alt="">
+  </div>
+  <div>
+    <div style="float: left;">
+      <span>第一段</span>
+    </div>
+    <div style="float: left;">
+      <span>第二段</span>
+    </div>
+  </div>
+</body>
+
+</html>
