@@ -1,0 +1,21 @@
+body {
+  padding: 10px;
+  font-size: 14px;
+  background: red;
+}
+
+body.body {
+  font-size: 20px;
+  background: red;
+}
+
+#body {
+  background: blue;
+}
+
+/**
+  *浏览器解析样式，从右往左，处于性能考虑
+  */
+.body div .hello {
+  color: red
+}
