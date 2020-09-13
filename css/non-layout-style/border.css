@@ -1,0 +1,14 @@
+.c1 {
+  width: 400px;
+  height: 200px;
+  border: red 1px solid;
+}
+
+.c2 {
+  width: 400px;
+  height: 200px;
+  border-bottom: blueviolet 20px solid;
+  border-left: violet 20px solid;
+  border-top: yellowgreen 20px solid;
+  border-right: green 20px solid;
+}
