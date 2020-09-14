@@ -1,0 +1,29 @@
+.left {
+  background: blue;
+}
+
+.right {
+  background: black;
+}
+
+table {
+  width: 800px;
+  height: 200px;
+  border-collapse: collapse;
+}
+
+.table {
+  width: 800px;
+  height: 200px;
+  display: table;
+  margin-top: 20px;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  vertical-align: middle;
+  display: table-cell;
+}
