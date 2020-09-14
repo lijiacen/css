@@ -1,0 +1,18 @@
+.block {
+  display: block;
+  background: blue;
+  height: 200px;
+
+}
+
+.inline {
+  display: inline;
+  background: orange;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  background: orangered;
+}

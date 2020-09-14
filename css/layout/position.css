@@ -1,0 +1,26 @@
+body div {
+  height: 300px;
+  width: 300px;
+  background: pink;
+}
+
+.p2 {
+  position: relative;
+  left: 10px;
+  top: -10px;
+  background: rebeccapurple;
+}
+
+.p3 {
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  background: palegreen;
+}
+
+.p4 {
+  position: fixed;
+  left: 200px;
+  top: 200px;
+  background: greenyellowg;
+}
