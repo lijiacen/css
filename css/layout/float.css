@@ -1,0 +1,50 @@
+.container1 {
+  background: lightcoral;
+  width: 600px;
+}
+
+.container1 .p1 {
+  float: left;
+  background: greenyellow;
+  width: 200px;
+  height: 50px;
+}
+
+.container2 {
+  background: indigo;
+  width: 600px;
+  overflow: auto;
+}
+
+.container2 .p1 {
+  float: left;
+  background: orangered;
+  width: 200px;
+  height: 50px;
+}
+
+
+.container3 {
+  height: 500px;
+  border: 1px solid black;
+}
+
+.container3 .left {
+  float: left;
+  width: 200px;
+  height: 100%;
+  background-color: green;
+}
+
+.container3 .right {
+  float: right;
+  width: 200px;
+  height: 100%;
+  background-color: red;
+}
+
+.container3 .container {
+  height: 100%;
+  margin-left: 200px;
+  margin-right: 200px;
+}
