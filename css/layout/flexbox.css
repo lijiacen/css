@@ -1,0 +1,25 @@
+.container {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.flex {
+  background: red;
+  margin: 5px;
+  flex: 1
+}
+
+.left {
+  background: yellow;
+  margin: 5px;
+  flex: none;
+  width: 200px;
+}
+
+.right {
+  background: green;
+  margin: 5px;
+  flex: 1
+}
